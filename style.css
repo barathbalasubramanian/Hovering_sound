@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+*::selection {
+    user-select: none;
+}
+
+:root {
+    --bg-color : #121212;
+    --fg-color: #9B37FF;
+}
+
+body,
+main {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+#dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+.word {
+    display: flex;
+    font-size: 5em;
+}
+
+
